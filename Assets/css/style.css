@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: var(--bg--main); */
+}
+:root{
+    --bg--main: #000000;
+}
+.float-right{
+    float: left;
+}
+.background-color{
+    background-color: var(--bg--main) !important;
+}
+.nav-link{
+    text-decoration: none;
+    color: white ;
+}
+.tagline{
+    font-size: 90px;
+    color: white;
+}
+.suv-banner{
+    height: 400px;
+    width: 900px;
+    float: right;
+    margin-top: 160px;
+}
+.alt-suv{
+    height: 500px;
+    width:850px;
+    float: right;
+    
+    
+
+}
+
+.alt-suv-text{
+    font-size: 50px;
+    color: white;
+    display:block;
+    /* text-align: justify; */
+    margin-left: 20px;
+   height: 500px;
+    
+
+}
+.our-serv-heading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.serv-column{
+    float: left;
+    width: 33.33333333333333333333333%;
+    padding-left: 25px;
+    display: block;
+}
+.serv-column p{
+    color: white;
+}
+.serv-column h3{
+    text-align: center;
+}
+.serv-row{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.serv-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.serv-img{
+    height: 120px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background-white{
+    background-color: white;
+}
+
+.podcast-text{
+    font-size: 55px;
+    color: white;
+    padding-left: 15px;
+}
+.podcast{
+    margin-top: 20px;
+    border: 5px solid white;
+}
+.podcast-subtext{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    
+}
+.footer-container
+{
+    background-color: rgb(44, 43, 43)  !important;
+
+    margin-top: 300px;
+
+}
+
+.footer{
+    width: 80%;
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: white;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    
+}
+
+.footer-heading a:hover{
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+
+#footer-mail{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 0.4rem ;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+
+#footer-mail::placeholder{
+    color: lightgray;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(238, 70, 70);
+    outline: none;
+    border: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+#footer-email-btn:hover{
+    background-color: rgb(236, 87, 87);
+    color: black;
+
+}
+
+.img-slider-l{
+    display: flex;
+    justify-content: center;
+}
+.img-slider-l li{
+
+    padding: 3px;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}

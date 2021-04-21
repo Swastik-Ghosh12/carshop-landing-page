@@ -1,0 +1,32 @@
+:root{
+    --bg--main: #000000;
+}
+.background-color{
+    background-color: var(--bg--main);
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+}
+.details-form{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+#btn-submit{
+    border: none;
+    border-radius: 5px;
+    background-color: gainsboro;
+    color: black;
+}
+#btn-submit:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
