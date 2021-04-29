@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/css/about-us.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+  <nav class="navbar navbar-expand-lg navbar-default" style="padding-top: 0px !important;">
+    <a  class="navbar-brand"  href="site.html"><img src="Assets/img/logo.jpeg" style="width: 150px; height: 110px;" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse my-auto">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="" class="nav-link">Brands</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about-us.html" class="nav-link">About us</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="" class="nav-link">Branches</a>
+            </li>
+        </ul>
+        <a href="form.html"><button type="button"  class="btn btn-outline-success pt-0 pb-0 my-auto" style="border-radius: 5px;">Contact us</button></a>
+
+
+      </div>
+  </nav>  
+
+  <section style="text-align: center;">
+      <span class="the-past-header">The Past</span>
+    
+    </section>
+    <div style="width: 70%; margin: 0px auto;">
+        <span class="the-past-text" style="margin-right: auto;">Started in a small garage in 1984 by two vietnam war vets, Cpl. James Hallie and Pfc.Jonathan Demzy. Century cars was first envisioned as garage with a twist. Here you could leave your car and get timely reports thus maintaining transperancy. Now with nearly 50 years of service, century cars has expanded to over 20 countries with engineers from top colleges. In 2002 we sponsored our first formula1 team with 2005,'06,09 being our champiosnhip years.With a lineup of amazing cars and products, we make sure our patrons are satisfied<span>
+      </div>
+
+      <script type="text/javascript">
+        var imgarr=[];
+        imgarr[0]='Assets/img/Ford-at-Le-Mans-112.jpg';
+        imgarr[1]='Assets/img/vietnam-war-vets.JPG';
+        imgarr[2]='Assets/img/f1-img.jpg';
+        // imgarr[0]=new Image();
+        // imgarr[1]=new Image();
+        // imgarr[2]=new Image();
+        // imgarr[0].src='Assets/img/Ford-at-Le-Mans-112.jpg';
+        // imgarr[1].src='Assets/img/vietnam-war-vets.jpg';
+        // imgarr[2].src='Assets/img/f1-img.jpg';
+        var i=0;
+        function slideshowauto(){
+                document.slideshow.src=imgarr[i];
+                if(i==(imgarr.length-1)){
+                    i=0;
+                }
+                else{
+                    i++;
+                }
+                setTimeout("slideshowauto()", 3000)
+
+            }
+
+        window.onload=slideshowauto;
+        let picture=document.getElementById('slide');
+        picture.style.transition='ease'
+    </script>
+ 
+      <div class="past-pic" >
+          <img src="" style="width: 600px; height: 400px;  " name="slideshow" id="slide">
+
+      </div>
+
+      <section class="centre text-color a-glimpse-of-past">
+          <span>A glimpse of our Past</span>
+      </section>
+
+      <Section >
+      <h3 id="team">Our team</h3>
+      </Section>
+     
+      <section class="flex-container">
+          <div  id="person-card">
+              <img src="Assets/img/person-placeholder.png" alt="">
+              <div style="text-align: center; color: white;" class="mx-auto">
+                <span > name </span><br>
+                <span> position </span> 
+            </div>
+          </div>
+
+          <div  id="person-card">
+            <img src="Assets/img/person-placeholder.png" alt="">
+            <div style="text-align: center; color: white;" class="mx-auto">
+              <span > name </span><br>
+              <span> position </span> 
+          </div>
+        </div>
+
+        <div id="person-card">
+            <img src="Assets/img/person-placeholder.png" alt="">
+            <div style="text-align: center; color: white;" class="mx-auto">
+              <span > name </span><br>
+              <span> position </span> 
+          </div>
+        </div>
+
+      </section>
+
+      <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Podcast</a>
+                <a href="#">Manual</a>
+                <a href="#">Branches</a>
+                <a href="#">Models</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Customer service</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a>
+                
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Branches</h2>
+                <a href="#">Bangalore</a>
+                <a href="#">Kolkata</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Gurgaon</a>
+                <a href="#">Delhi</a>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email ID" name="" id="footer-mail">
+                <input type="submit" value="Sign-up" id="footer-email-btn">
+            </div>
+
+        </div>
+
+    </div>
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>
